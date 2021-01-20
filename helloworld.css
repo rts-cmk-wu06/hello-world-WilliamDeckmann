@@ -1,0 +1,16 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+body {background-color: crimson; padding: 50px; box-sizing: border-box;}
+h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: blue; font-size: 4em; text-align: center;}
+p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:blue; font-size: 1.5em; text-align: center;}
+a {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:blue; font-size: 1.5em; text-align: center; margin-left: 50px;}
+header {height: 200px; margin-bottom: 25px; background-color: lightsalmon; border: solid 5px blue;}
+nav {height: 260px; margin-bottom: 25px; background-color: lightsalmon; border: solid 5px blue;}
+main {display: flex; flex-grow: 1; justify-content: space-between; margin-bottom: 25px;}
+article {width: 70%; background-color: lightsalmon; border: solid 5px blue;}
+section {width: 25%; background-color: lightsalmon; border: solid 5px blue;}
+footer {height: 125px; margin-bottom: 25px; background-color: lightsalmon; border: solid 5px blue;}
